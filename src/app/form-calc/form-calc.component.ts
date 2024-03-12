@@ -22,6 +22,9 @@ export class FormCalcComponent {
     onClickdiv(){
       this.total = this.num1 / this.num2;
     }
+    onClickexpo(){
+      this.total = this.num1 ** this.num2;
+    }
    
 
 }
