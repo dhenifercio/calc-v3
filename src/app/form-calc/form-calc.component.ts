@@ -19,6 +19,7 @@ export class FormCalcComponent {
     onClickmult(){
       this.total = this.num1 * this.num2;
     }
+   
 
 }
 
