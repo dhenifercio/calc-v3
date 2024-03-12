@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { FormCalcComponent } from './form-calc/form-calc.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    FormCalcComponent
+    FormCalcComponent,
+    
   ],
   imports: [
     BrowserModule,

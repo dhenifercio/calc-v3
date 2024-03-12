@@ -8,10 +8,17 @@ import { Component } from '@angular/core';
 export class FormCalcComponent {
   num1: number = 0;
   num2: number = 0;
-  sum : number = 0;
+  total : number = 0;
 
   onClickSum(){
-    this.sum = this.num1 + this.num2;
-  }
+    this.total = this.num1 + this.num2;
+     }
+     onClicksub(){
+      this.total = this.num1 - this.num2;
+    }
+    onClickmult(){
+      this.total = this.num1 * this.num2;
+    }
 
 }
+
