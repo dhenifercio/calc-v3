@@ -28,7 +28,6 @@ export class FormCalcComponent {
     onClickraiz(){
       this.total = this.num1 ** (1/this.num2);
     }
-   
 
 }
 
